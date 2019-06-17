@@ -20,7 +20,7 @@ public class StringHelperTest {
 		System.out.println("before");
 	}
 	@After
-	public void after(){ // runs before every single test method
+	public void after(){ // runs after every single test method
 		System.out.println("after");
 	}
 	/*@BeforeClass
